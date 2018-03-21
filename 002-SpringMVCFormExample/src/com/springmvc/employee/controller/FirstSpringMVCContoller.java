@@ -1,0 +1,31 @@
+package com.springmvc.employee.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("/home")
+public class FirstSpringMVCContoller {
+	@RequestMapping("/hello")
+	public String sayHello()
+	{
+		return "Hello";
+	}
+	@RequestMapping("/message")
+	public String sendMessage(Model m)
+	{
+		m.addAttribute("myMessage", "hello from spring framework");
+		return "kitchen";
+		
+	}
+	@RequestMapping("/supermessage")
+	public ModelAndView sendMessage(ModelAndView m)
+	{
+		m.addObject("message", "canteen");
+		m.setViewName("canteen");
+		return m;
+		
+	}
+}

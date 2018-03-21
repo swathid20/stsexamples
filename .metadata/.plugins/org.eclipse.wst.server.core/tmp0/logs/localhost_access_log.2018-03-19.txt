@@ -1,0 +1,5 @@
+127.0.0.1 - - [19/Mar/2018:15:55:03 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:15:55:07 +0530] "GET /002-SpringMVCFormExample/ HTTP/1.1" 200 341
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:15:55:16 +0530] "GET /002-SpringMVCFormExample/empform HTTP/1.1" 200 981
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:15:55:21 +0530] "POST /002-SpringMVCFormExample/save HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2018:15:55:21 +0530] "GET /002-SpringMVCFormExample/viewemp HTTP/1.1" 200 773
