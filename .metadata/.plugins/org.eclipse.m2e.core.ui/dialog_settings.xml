@@ -2,12 +2,18 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ccom.springboot.data"/>
+			<item value="com.springboot.1"/>
 			<item value="com.spring.hibernate"/>
 		</list>
 		<list key="name">
+			<item value="005_SpringBoot_MYSQL"/>
+			<item value="004_Spring_HelloWorld"/>
 			<item value="SpringMVC_Hibernate"/>
 		</list>
 		<list key="artifactId">
+			<item value="005_SpringBoot_MYSQL"/>
+			<item value="004_Spring_HelloWorld"/>
 			<item value="003-SpringMVC_Hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -63,6 +69,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\681203\Documents\workspace-sts-3.9.0.RELEASE\004_Spring_HelloWorld"/>
 			<item value="C:\Users\681203\Documents\workspace-sts-3.9.0.RELEASE\012MavenSpringCore\pom.xml"/>
 			<item value="C:\Users\681203\Documents\workspace-sts-3.9.0.RELEASE\012MavenSpringCore\src\main"/>
 			<item value="C:\Users\681203\Documents\workspace-sts-3.9.0.RELEASE\001_demo"/>

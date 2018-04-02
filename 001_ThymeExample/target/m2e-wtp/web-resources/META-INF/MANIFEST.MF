@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: 001_ThymeExample
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 681203
+Implementation-Vendor-Id: 001_thyme
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/001_ThymeExample
+Created-By: Maven Integration for Eclipse
+
